@@ -1,0 +1,209 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Arial;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+nav#menu {
+    width: 100%;
+    background-color: #333333;
+    padding: 10px;
+}
+
+nav#menu ul {
+    display: flex;
+}
+
+nav#menu ul li {
+    background-color: #b50013;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 3px;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+
+nav#menu ul li:hover {
+    background-color: #444444;
+    color: white;
+}
+
+nav#menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+
+header {
+    position: relative;
+    height: 200px;
+}
+
+header #capa {
+    width: 100%;
+    background-image: url("../../assets/bg-mackenzie.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+}
+
+header .foto {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 50px;
+    top: 193px;
+}
+
+header .foto img {
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 120px;
+}
+
+.descricao {
+    height: 99px;
+    background: #333333;
+    color: white;
+    padding-top: 20px;
+    padding-left: 200px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nome {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.bio,
+.localizacao {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.apresentacao {
+    margin-top: 54px;
+    color: white;
+    padding: 10px;
+    background: #333333;
+}
+
+.apresentacao .header-apresentacao {
+    text-align: center;
+    margin: 27px 0;
+}
+
+.apresentacao .blocos {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.apresentacao .blocos .bloco {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #232323;
+    width: 30%;
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.5s linear;
+    border-radius: 3px;
+}
+
+.apresentacao .blocos .bloco:hover {
+    background: #b50013;
+}
+
+.apresentacao .blocos .link {
+    color: white;
+    text-decoration: none;
+}
+
+/* Experiencia */
+
+.apresentacao .thumb {
+    height: 75px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.bloco-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #232323;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+}
+
+.bloco-item .link {
+    color: #b50013;
+    text-decoration: none;
+}
+
+.bloco-item .titulo-experiencia {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.bloco-item .descricao-experiencia {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.bloco-item .nome-empresa,
+.bloco-item .tempo {
+    font-size: 14px;
+}
+
+.dedicatoria {
+    text-align: center;
+    margin: 30px 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.link-red {
+    color: #b50013;
+    text-decoration: none;
+}
